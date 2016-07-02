@@ -16,6 +16,7 @@ and open the template in the editor.
         <script src="js/bootstrap.min.js" async="async"></script>
     </head>
     <body>
+        
         <div class="container">
             <div>
                 <nav class="navbar-inverse">
@@ -28,10 +29,48 @@ and open the template in the editor.
                         <li><a href="#">Miembros</a></li>
                     </ul>
                 </nav>
-            </div>
-            <div class="carousel">
-                <img src="logo.png" alt="Parlingo">
             </div>     
+        </div>
+        
+        
+        <div class="clearfix"></div>
+        
+        <div class="container">
+            <div id="myCarousel"  class="carousel" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>  
+                
+                <!--Imagenes del carousel-->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active" role="option">
+                    <img class="img-responsive" src="img/logo.png" alt="Parlingo">
+                </div>
+                <div class="item" role="option">
+                    <img class="img-responsive" src="img/ALEJANDRA-GALLEGO-maestra-de-ingles.jpg" alt="Parlingo">
+                </div>
+                <div class="item" role="option">
+                    <img class="img-responsive" src="img/SEBASTIAN-GALLEGO-profesora-de-ingles.jpg" alt="Parlingo">
+                </div>
+                <div class="item" role="option">
+                    <img class="img-responsive" src="img/ALEJANDRA-GALLEGO-maestra-de-ingles.jpg" alt="Parlingo">
+                </div>
+            </div>
+                
+                <!--Controles del carousel-->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>    
+                
+            </div>
         </div>
     </body>
 </html>
