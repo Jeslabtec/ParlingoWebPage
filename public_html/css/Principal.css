@@ -1,0 +1,279 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 08-jul-2016, 16:46:02
+    Author     : USER
+*/
+@charset "utf-8";
+@import url("../engine/style.css");
+@import url("../engine/style.mod.css");
+
+
+body{   
+    background: rgba(177,209,231,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(177,209,231,1) 0%, rgba(144,187,218,1) 41%, rgba(96,156,199,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(177,209,231,1)), color-stop(41%, rgba(144,187,218,1)), color-stop(100%, rgba(96,156,199,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(177,209,231,1) 0%, rgba(144,187,218,1) 41%, rgba(96,156,199,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(177,209,231,1) 0%, rgba(144,187,218,1) 41%, rgba(96,156,199,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(177,209,231,1) 0%, rgba(144,187,218,1) 41%, rgba(96,156,199,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(177,209,231,1) 0%, rgba(144,187,218,1) 41%, rgba(96,156,199,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1d1e7', endColorstr='#609cc7', GradientType=1 );
+}
+div.navegador{
+        width:100%;
+	height:100px;
+	background-position:center;
+        background: rgba(88,155,219,1);
+        background: -moz-linear-gradient(left, rgba(88,155,219,1) 0%, rgba(88,155,219,1) 30%, rgba(95,131,166,1) 68%, rgba(100,110,122,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(88,155,219,1)), color-stop(30%, rgba(88,155,219,1)), color-stop(68%, rgba(95,131,166,1)), color-stop(100%, rgba(100,110,122,1)));
+        background: -webkit-linear-gradient(left, rgba(88,155,219,1) 0%, rgba(88,155,219,1) 30%, rgba(95,131,166,1) 68%, rgba(100,110,122,1) 100%);
+        background: -o-linear-gradient(left, rgba(88,155,219,1) 0%, rgba(88,155,219,1) 30%, rgba(95,131,166,1) 68%, rgba(100,110,122,1) 100%);
+        background: -ms-linear-gradient(left, rgba(88,155,219,1) 0%, rgba(88,155,219,1) 30%, rgba(95,131,166,1) 68%, rgba(100,110,122,1) 100%);
+        background: linear-gradient(to right, rgba(88,155,219,1) 0%, rgba(88,155,219,1) 30%, rgba(95,131,166,1) 68%, rgba(100,110,122,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#589bdb', endColorstr='#646e7a', GradientType=1 );
+         }
+
+#navmenu{
+	margin-top: 0px;
+	width:1500px;
+	padding:0;
+	}
+        #navmenu ul{
+          margin:0;
+          padding:0;
+          line-height: 30px;
+        }
+        #navmenu ul li a{
+            text-align: center;            
+            display: block;
+            color:whitesmoke;             
+            background: rgba(88,155,219,1);
+            background: -moz-linear-gradient(left, rgba(88,155,219,1) 0%, rgba(88,155,219,1) 30%, rgba(95,131,166,1) 68%, rgba(100,110,122,1) 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, rgba(88,155,219,1)), color-stop(30%, rgba(88,155,219,1)), color-stop(68%, rgba(95,131,166,1)), color-stop(100%, rgba(100,110,122,1)));
+            background: -webkit-linear-gradient(left, rgba(88,155,219,1) 0%, rgba(88,155,219,1) 30%, rgba(95,131,166,1) 68%, rgba(100,110,122,1) 100%);
+            background: -o-linear-gradient(left, rgba(88,155,219,1) 0%, rgba(88,155,219,1) 30%, rgba(95,131,166,1) 68%, rgba(100,110,122,1) 100%);
+            background: -ms-linear-gradient(left, rgba(88,155,219,1) 0%, rgba(88,155,219,1) 30%, rgba(95,131,166,1) 68%, rgba(100,110,122,1) 100%);
+            background: linear-gradient(to right, rgba(88,155,219,1) 0%, rgba(88,155,219,1) 30%, rgba(95,131,166,1) 68%, rgba(100,110,122,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#589bdb', endColorstr='#646e7a', GradientType=1 ); ;
+        }
+        #navmenu li{
+            margin:0;
+            padding:0;
+            list-style:none;
+            float:left; 
+            position:relative;            
+        }        
+        #navmenu ul ul{
+            position: absolute;
+            visibility: hidden;
+            float:left;
+            padding: 0;
+            margin-top: 75px;                     
+        }
+        #navmenu ul li:hover ul{          
+            visibility: visible;
+            transition: .4s;
+        }        
+        #navmenu ul ul:hover {                      
+            padding-top:10px;
+	    transition:.4s;
+        }
+        #navmenu ul ul:hover li a{                       
+            padding-top:10px;
+	    transition:.1s;
+        }
+        #navmenu ul ul li:hover a{
+            background: whitesmoke;    
+            color: blue;           
+        }
+        li.idiomas{
+            display: block;
+            padding: 0;            
+            padding-top:10px;
+            border-bottom: 2px solid #222EB0;
+            border-right: 4px solid #222EB0;                           
+            width: 100px;                    
+            z-index: 100;
+            margin-top: 0px;
+        }        
+        li.cursos{
+            display: block;
+            padding: 0;            
+            padding-top:10px;
+            border-bottom: 2px solid #222EB0;
+            border-right: 4px solid #222EB0;               
+            width: 100px;        
+            z-index: 100;
+            margin-top: 0px;
+        }
+        li.contactanos{
+            display: block;
+            padding: 0;            
+            padding-top:10px;
+            border-bottom: 2px solid #222EB0;
+            border-right: 4px solid #222EB0;               
+            width: 150px;        
+            z-index: 100;
+            margin-top: 0px;
+        }
+         li.somos{
+            display: block;
+            padding: 0;            
+            padding-top:10px;
+            border-bottom: 2px solid #222EB0;
+            border-right: 4px solid #222EB0;                           
+            width: 170px;                 
+            z-index: 100;
+            margin-top: 0px;
+        }
+div.parlingoLogo {       
+	width:300px;
+	height:60px;        
+	background-position:center;
+	background-repeat:no-repeat;
+	background-image:url(../img/logo.png);      
+	float:left;
+	margin-left:34px;
+        margin-right: 200px;
+	margin-top:20px;
+	transition:.4s;
+	}
+        
+div.parlingoLogo:hover{              
+        margin-top:30px;
+        transition:.4s;
+	}
+div.idiomas {
+        border-right: 4px solid #222EB0;   
+        border-bottom: 2px solid #222EB0;
+	padding-top:5px;
+	text-align:center;
+	width:100px;
+	height:40px;
+	float:left;
+        margin-top: 35px;
+	margin-left:0px;	
+        margin-right: 10px;
+	color:whitesmoke;
+	font-family: "times new roman";
+	font-size:25px;
+	text-shadow: 2px 1px 1px #5E5858;
+	transition: .4s;
+	}
+div.idiomas:hover {
+        color: blue;            
+        padding-top:10px;
+	transition:.4s;
+        background-color: whitesmoke;
+	}
+div.cursos {   
+        border-bottom: 2px solid #222EB0;
+        border-right: 4px solid #222EB0; 
+	padding-top:5px;
+	text-align:center;
+	width:100px;
+	height:40px;
+	float:left;
+        margin-top: 35px;
+	margin-left:0px;
+        margin-right: 10px;
+	color:whitesmoke;
+	font-family: "times new roman";
+	font-size:25px;
+	text-shadow: 2px 1px 1px #5E5858;
+	transition: .4s;
+	}
+div.cursos:hover {
+        color: blue;            
+        padding-top:10px;
+	transition:.4s;
+        background-color: whitesmoke;
+	}
+
+div.contactanos {
+        border-bottom: 2px solid #222EB0;
+        border-right: 4px solid #222EB0; 
+	padding-top:5px;
+	text-align:center;
+	width:150px;
+	height:40px;
+	float:left;
+        margin-top: 35px;
+	margin-left:0px;
+        margin-right: 10px;
+	color:whitesmoke;
+	font-family: "times new roman";
+	font-size:25px;
+	text-shadow: 2px 1px 1px #5E5858;
+	transition: .4s;        
+	}
+div.contactanos:hover {
+        color: blue;            
+        padding-top:10px;
+	transition:.4s;
+        background-color: whitesmoke;
+
+	}
+div.Somos{
+        border-bottom: 2px solid #222EB0;
+        border-right: 4px solid #222EB0; 
+	padding-top:5px;
+	text-align:center;
+	width:170px;
+	height:40px;
+	float:left;
+        margin-top: 35px;
+	margin-left:0px;
+	color:whitesmoke;
+	font-family: "times new roman";
+	font-size:25px;
+	text-shadow: 2px 1px 1px #5E5858;
+	transition: .4s;        
+	}
+div.Somos:hover {
+        color: blue;            
+        padding-top:10px;
+	transition:.4s;       
+        background-color: whitesmoke;
+	}
+        
+
+@-webkit-keyframes cambiocolor{
+    from{background-color: black;}
+    to{background-color: yellow;}
+}
+div.singinstyle{
+    margin-top: 100px;    
+}
+#carrouselcont{
+    margin-top: 100px;
+    
+}
+img.imgslider{
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    border-radius: 30px 30px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border: 11px outset #b3b3b3;
+}
+div.prueba:hover{
+    animation-name: cambiocolor;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#slider {
+	margin:auto;
+	padding-top:30px;
+}
+span.Btnderecha{
+    
+}
+
+
+
+
