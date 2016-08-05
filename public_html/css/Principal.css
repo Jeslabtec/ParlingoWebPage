@@ -13,24 +13,17 @@ and open the template in the editor.
 
 
 body.home{   
-    background: rgba(177,209,231,1);
-    background: -moz-radial-gradient(center, ellipse cover, rgba(177,209,231,1) 0%, rgba(144,187,218,1) 41%, rgba(96,156,199,1) 100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(177,209,231,1)), color-stop(41%, rgba(144,187,218,1)), color-stop(100%, rgba(96,156,199,1)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(177,209,231,1) 0%, rgba(144,187,218,1) 41%, rgba(96,156,199,1) 100%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(177,209,231,1) 0%, rgba(144,187,218,1) 41%, rgba(96,156,199,1) 100%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(177,209,231,1) 0%, rgba(144,187,218,1) 41%, rgba(96,156,199,1) 100%);
-    background: radial-gradient(ellipse at center, rgba(177,209,231,1) 0%, rgba(144,187,218,1) 41%, rgba(96,156,199,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1d1e7', endColorstr='#609cc7', GradientType=1 );
+    background-color: blue;
+  
 }
 
 
 
 body.course{   
-    background-color:  blue;
+    background-color: blue;
     }
     
 div.navegador{
-        width:100%;
 	height:100px;
 	background-position:center;
         background: rgba(88,155,219,1);
@@ -41,11 +34,11 @@ div.navegador{
         background: -ms-linear-gradient(left, rgba(88,155,219,1) 0%, rgba(88,155,219,1) 30%, rgba(95,131,166,1) 68%, rgba(100,110,122,1) 100%);
         background: linear-gradient(to right, rgba(88,155,219,1) 0%, rgba(88,155,219,1) 30%, rgba(95,131,166,1) 68%, rgba(100,110,122,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#589bdb', endColorstr='#646e7a', GradientType=1 );
-         }
+        }
 
 #navmenu{
 	margin-top: 0px;
-	width:1500px;
+	width:  100%;
 	padding:0;
 	}
         #navmenu ul{
@@ -286,7 +279,13 @@ span.Btnderecha{
     margin-top: 20px;
 }
 
-#glyphome{
-    
+#btnimagenes{
+  margin: 20px;
+  color: white;
+  font-size: 30px;
+  border:1px solid green;
+  background-color: green;
+  border-radius: 7px;
+  text-align: center;
 }
 

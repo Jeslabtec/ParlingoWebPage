@@ -14,12 +14,22 @@ and open the template in the editor.
         <link href="fonts/glyphicons-halflings-regular.ttf" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/Principal.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" type="text/css" href="engine/style.css" />
+        <link href="css/font-awesome.css" type="text/css" rel="stylesheet"/>
         <script src="js/jquery-2.2.4.min.js"></script>
         <script src="js/bootstrap.min.js" async="async"></script>
         <script type="text/javascript" src="engine/jquery.js"></script>
     </head>
     <body class="home">
         <div id="vistaInicial">
+            <div class="navbar">
+                    <form class="form-inline navbar-right">
+                        <input class="input-sm" type="text" name="USR" placeholder="Usuario"/>
+                        <input class="input-sm" type="password" name="PASS" placeholder="Contraseña"/>
+                        <button class="btn" name="Ingresar">Ingresar</button>
+                        <button class="btn-link" name="contraseña">olvido su contraseña?</button>
+                        <button class="btn-link" name="registrarse">registarse</button>
+                    </form>
+            </div>
             <div class="navegador">
              <div id="navmenu">
                 <ul>
@@ -55,18 +65,7 @@ and open the template in the editor.
                     </li>
                 </ul>                 
              </div>
-            </div>  
-            <!--       
-        <div class="col-lg-2 col-lg-offset-10 singinstyle" >
-                    <form class="form-inline">
-                        <input class="input-sm" name="Usuario"/>
-                        <input class="input-sm" name="Contraseña"/>
-                        <button class="btn" name="Ingresar">Ingresar</button>
-                        <button class="btn-link" name="contraseña">olvido su contraseña?</button>
-                        <button class="btn-link" name="registrarse">registarse</button>
-                    </form>
-        </div>
- -->           
+            </div>         
             <div align="center">
             <div id="slider">
 <div id="wowslider-container1">		
@@ -82,5 +81,14 @@ and open the template in the editor.
 </div>
 </div>
         </div>
+        <div class="container">
+            <footer class="col-lg-3 col-lg-offset-5">
+            <a class="fa fa-facebook fa-4x" aria-hidden="true" href="#"></a>
+            <a class="fa fa-twitter fa-4x" aria-hidden="true" href="#"></a>
+            <a class="fa fa-google-plus fa-4x" aria-hidden="true" href="#"></a>
+            <a class="fa fa-youtube fa-4x" aria-hidden="true" href="#"></a>
+            </footer>
+        </div>
+        
     </body>
 </html>
