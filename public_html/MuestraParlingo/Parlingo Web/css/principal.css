@@ -1,0 +1,1019 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{margin:0px;
+padding:0px;
+	}
+body {
+	background:#00CCFF;}
+
+nav {
+	width:100%;
+	height:100px;
+	background-position:center;
+	background-image:url(../imagenes/primerpantalla/menu.png);
+	}
+#menu {
+	margin:auto;
+	width:1200px;
+	padding-top:25px;
+	}
+#logo {
+	width:292px;
+	height:50px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-image:url(../imagenes/primerpantalla/logo.png);
+	float:left;
+	margin-left:34px;
+	margin-top:0px;
+	transition:.3s;
+	}
+
+#logo:hover {
+
+	background-repeat:no-repeat;
+	background-position:center;
+	background-image:url(../imagenes/primerpantalla/logoh.png);	
+	transition:.3s;
+	}
+
+#home {
+	width:51px;
+	height:42px;
+	background-image:url(../imagenes/primerpantalla/home.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	float:left;
+	padding-right:20px;
+	margin-left:300px;
+	margin-top:0px;
+	transition:.4s;}
+	
+#home:hover {
+	transition:.4s;
+	background-image:url(../imagenes/primerpantalla/homehover.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+
+.idiomas {
+	padding-top:5px;
+	text-align:center;
+	width:129px;
+	height:55px;
+	float:left;
+	margin-left:23px;
+	margin-top:0px;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:25px;
+	text-shadow: 3px 1px 0px #003366;
+	transition:.4s;
+	}
+.idiomas:hover {
+	padding-top:10px;
+	background-image:url(../imagenes/primerpantalla/idioh.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	transition:.4s;
+	}
+.cursos {
+	padding-top:5px;
+	text-align:center;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:25px;
+	text-shadow: 3px 1px 0px #003366;
+	width:115px;
+	height:55px;
+	float:left;
+	margin-left:13px;
+	margin-top:0px;
+	transition:.4s;
+	}
+.cursos:hover {
+	padding-top:10px;
+	background-image:url(../imagenes/primerpantalla/cursosh.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	transition:.4s;
+	}
+
+.contactanos {
+	width:202px;
+	height:55px;
+	float:left;
+	margin-left:0px;
+	margin-top:0px;
+	transition:.4s;
+	padding-top:5px;
+	text-align:center;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:25px;
+	text-shadow: 3px 1px 0px #003366;
+	}
+.contactanos:hover {
+	padding-top:10px;
+	background-image:url(../imagenes/primerpantalla/contactanosh.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	transition:.4s;
+	}
+/*------------------------------------------------*/
+#separador {
+	width:100%;
+	height:35px;
+	background-image:url(../imagenes/principal/metodologia/separador.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:100%;
+	margin:auto;
+	}
+/*-------------------section metodologia------------------*/
+
+#metodologia {
+	width:100%;
+	height:1126px;
+	background-image:url(../imagenes/principal/metodologia/fondo.png);
+	background-position:center;
+	background-size:100%;
+	background-repeat:no-repeat;}
+#contenedormet {
+	width:1280px;
+	margin:auto;
+	height:900px;}
+#invitacionmet {
+	float:left;
+	margin-left:500px;
+	margin-top:20px;}
+#titulomet {
+	float:left;
+	margin-left:50px;
+	margin-top:40px;
+	}
+#twister {
+	float:left;
+	margin-left:-1100px;
+	margin-top:300px;
+	background-image:url(../imagenes/principal/metodologia/twister.png);
+	width:117px;
+	height:141px;
+	transition:.4s;}
+#twister:hover {
+	float:left;
+	margin-left:-1150px;
+	margin-top:280px;
+	background-image:url(../imagenes/principal/metodologia/twisterh.png);
+	width:205px;
+	height:164px;
+	transition:.4s;}
+#bingo {
+	float:left;
+	margin-left:-910px;
+	margin-top:300px;
+	background-image:url(../imagenes/principal/metodologia/bingo.png);
+	width:118px;
+	height:175px;
+	transition:.4s;}
+#bingo:hover {
+	float:left;
+	margin-left:-950px;
+	margin-top:270px;
+	background-image:url(../imagenes/principal/metodologia/bingoh.png);
+	width:187px;
+	height:195px;
+	transition:.4s;}
+#loteria {
+	float:left;
+	margin-left:-720px;
+	margin-top:280px;
+	background-image:url(../imagenes/principal/metodologia/loteria.png);
+	width:118px;
+	height:182px;
+	transition:.4s;}
+#loteria:hover {
+	float:left;
+	margin-left:-770px;
+	margin-top:250px;
+	background-image:url(../imagenes/principal/metodologia/loteriah.png);
+	width:230px;
+	height:221px;
+	transition:.4s;}
+#karaoke {
+	float:left;
+	margin-left:-540px;
+	margin-top:270px;
+	background-image:url(../imagenes/principal/metodologia/karaoke.png);
+	width:118px;
+	height:177px;
+	transition:.4s;}
+#karaoke:hover {
+	float:left;
+	margin-left:-590px;
+	margin-top:240px;
+	background-image:url(../imagenes/principal/metodologia/karaokeh.png);
+	width:227px;
+	height:211px;
+	transition:.4s;}
+#cesta {
+	float:left;
+	margin-left:-360px;
+	margin-top:280px;
+	background-image:url(../imagenes/principal/metodologia/cesta.png);
+	width:118px;
+	height:180px;
+	transition:.4s;}
+#cesta:hover {
+	float:left;
+	margin-left:-420px;
+	margin-top:255px;
+	background-image:url(../imagenes/principal/metodologia/cestah.png);
+	width:243px;
+	height:196px;
+	transition:.4s;}
+#flash {
+	float:left;
+	margin-left:-180px;
+	margin-top:260px;
+	background-image:url(../imagenes/principal/metodologia/flash.png);
+	width:118px;
+	height:177px;
+	transition:.4s;}
+#flash:hover {
+	float:left;
+	margin-left:-200px;
+	margin-top:235px;
+	background-image:url(../imagenes/principal/metodologia/flashh.png);
+	width:180px;
+	height:220px;
+	transition:.4s;}
+#dardos {
+	float:left;
+	margin-left:-1100px;
+	margin-top:500px;
+	background-image:url(../imagenes/principal/metodologia/dardos.png);
+	width:119px;
+	height:186px;
+	transition:.4s;}
+#dardos:hover {
+	float:left;
+	margin-left:-1140px;
+	margin-top:480px;
+	background-image:url(../imagenes/principal/metodologia/dardosh.png);
+	width:202px;
+	height:211px;
+	transition:.4s;}
+#millonario {
+	float:left;
+	margin-left:-910px;
+	margin-top:540px;
+	background-image:url(../imagenes/principal/metodologia/quienquiere.png);
+	width:119px;
+	height:164px;
+	transition:.4s;}
+#millonario:hover {
+	float:left;
+	margin-left:-960px;
+	margin-top:520px;
+	background-image:url(../imagenes/principal/metodologia/quienquiereh.png);
+	width:234px;
+	height:185px;
+	transition:.4s;}
+#concentrese {
+	float:left;
+	margin-left:-720px;
+	margin-top:480px;
+	background-image:url(../imagenes/principal/metodologia/concentrece.png);
+	width:119px;
+	height:195px;
+	transition:.4s;}
+#concentrese:hover {
+	float:left;
+	margin-left:-780px;
+	margin-top:450px;
+	background-image:url(../imagenes/principal/metodologia/concentreceh.png);
+	width:249px;
+	height:220px;
+	transition:.4s;}
+#ruleta {
+	float:left;
+	margin-left:-540px;
+	margin-top:480px;
+	background-image:url(../imagenes/principal/metodologia/ruleta.png);
+	width:119px;
+	height:188px;
+	transition:.4s;}
+#ruleta:hover {
+	float:left;
+	margin-left:-570px;
+	margin-top:450px;
+	background-image:url(../imagenes/principal/metodologia/ruletah.png);
+	width:211px;
+	height:204px;
+	transition:.4s;}
+#monopoly {
+	float:left;
+	margin-left:-360px;
+	margin-top:490px;
+	background-image:url(../imagenes/principal/metodologia/monopoly.png);
+	width:119px;
+	height:190px;
+	transition:.4s;}
+#monopoly:hover {
+	float:left;
+	margin-left:-410px;
+	margin-top:465px;
+	background-image:url(../imagenes/principal/metodologia/monopolyh.png);
+	width:224px;
+	height:210px;
+	transition:.4s;}
+#jenga {
+	float:left;
+	margin-left:-180px;
+	margin-top:470px;
+	background-image:url(../imagenes/principal/metodologia/jenga.png);
+	width:119px;
+	height:176px;
+	transition:.4s;}
+#jenga:hover {
+	float:left;
+	margin-left:-220px;
+	margin-top:445px;
+	background-image:url(../imagenes/principal/metodologia/jengah.png);
+	width:223px;
+	height:222px;
+	transition:.4s;}
+#piemet {
+	margin:auto;
+	width:100%;
+	}
+
+#infomet {
+	padding-right:40px;
+	float:left;
+	margin-left:-1130px;
+	margin-top:750px;
+	width:1078px;
+	height:144px;
+	background-image:url(../imagenes/principal/metodologia/+info.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	transition:.3s;
+	}
+#infomet p{
+	text-justify:center;
+	font-family: 'champagne__limousinesregular';
+	color:#FFF;
+	font-size:23px;
+	margin-top:20px;
+	margin-left:200px;
+	}
+#infomet:hover {
+	background-image:url(../imagenes/principal/metodologia/+infoh.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	transition:.3s;
+	}
+	
+#homec {
+	width:51px;
+	height:42px;
+	background-image:url(../imagenes/primerpantalla/home.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	float:left;
+	margin-left:680px;
+	margin-top:50px;
+	transition:.4s;}
+#homec:hover {
+	transition:.4s;
+	background-image:url(../imagenes/primerpantalla/homehover.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+#redessection {
+	float:left;
+	margin-top:20px;
+	margin-left:560px;
+	}
+/*------------------idiomas-----------------*/
+#idiomas {
+	width:100%;
+	height:850px;
+	background-size:100%;
+	background-image:url(../imagenes/principal/Cursos/fondo.png);}
+#contenedorid {
+	width:1280px;
+	margin:auto;
+	height:900px;
+	}
+
+#invitacionid {
+	float:left;
+	margin-left:500px;
+	margin-top:20px;}
+#tituloid {
+	float:left;
+	margin-left:100px;
+	margin-top:40px;
+	}
+
+#ingles {
+	float:left;
+	margin-left:-1000px;
+	margin-top:250px;
+	background-image:url(../imagenes/principal/Idiomas/ingles.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	width:176px;
+	height:335px;
+	transition:.4s;
+	}
+
+#ingles:hover {
+	margin-top:190px;
+	margin-left:-1050px;
+	background-image:url(../imagenes/principal/Idiomas/inglesh.png);
+	width:308px;
+	height:402px;
+	background-position:center;
+	background-repeat:no-repeat;
+	transition:.4s;
+	}
+
+	
+#portugues {
+	float:left;
+	background-image:url(../imagenes/principal/Idiomas/portugues.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	width:176px;
+	height:295px;
+	transition:.4s;
+	margin-left:-650px;
+	margin-top:290px;
+	}
+
+#portugues:hover {
+	margin-left:-720px;
+	margin-top:240px;
+	background-image:url(../imagenes/principal/Idiomas/portuguesh.png);
+	width:321px;
+	height:344px;
+	background-position:center;
+	background-repeat:no-repeat;
+	transition:.4s;
+	}
+
+#frances {
+	float:left;
+	background-image:url(../imagenes/principal/Idiomas/frances.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	width:176px;
+	height:342px;
+	transition:.4s;
+	margin-left:-300px;
+	margin-top:240px;
+	}
+#frances:hover {
+	margin-top:180px;
+	margin-left:-365px;
+	background-image:url(../imagenes/principal/Idiomas/francesh.png);
+	width:323px;
+	height:394px;
+	background-position:center;
+	background-repeat:no-repeat;
+	transition:.4s;
+	}
+	
+#homecid{
+	width:51px;
+	height:42px;
+	float:left;
+	margin-left:-590px;
+	margin-top:650px;
+	background-image:url(../imagenes/primerpantalla/home.png);
+	background-repeat:no-repeat;
+	background-position:center;}
+#homecid:hover {
+	transition:.4s;
+	background-image:url(../imagenes/primerpantalla/homehover.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+#redessectionid {
+	float:left;
+	margin-top:20px;
+	margin-left:525px;
+	}
+/*------------------Cursos-----------------*/
+
+#cursos {
+	width:100%;
+	height:900px;
+	background-size:100%;
+	background-image:url(../imagenes/principal/Cursos/fondo.png);}
+	
+#contenedorcur {
+	width:1280px;
+	margin:auto;
+	height:900px;
+	}
+
+#invitacioncur {
+	float:left;
+	margin-left:380px;
+	margin-top:0px;}
+
+#titulocur {
+	float:left;
+	margin-left:50px;
+	margin-top:30px;
+	}
+
+#sabatino {
+	float:left;
+	width:146px;
+	height:258px;
+	margin-left:-1040px;
+	margin-top:300px;
+	background-image:url(../imagenes/principal/cursos/sabatino.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	transition:.4s;
+	}
+
+#sabatino:hover {
+	margin-left:-1080px;
+	margin-top:270px;
+	background-image:url(../imagenes/principal/cursos/sabatinoh.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:227px;
+	height:308px;
+	transition:.4s;
+	}
+#sabatino p {
+	color:#FFF;
+	opacity:.7;
+	font-family: 'keep_calm_medregular';
+	font-size:22px;
+	padding-left:10px;
+	padding-top:270px;
+	transition:.4s;
+	}
+#sabatino p:hover {
+	transition:.2s;
+	opacity:0;}
+	
+#semi {
+	float:left;
+	width:146px;
+	height:258px;
+	margin-left:-770px;
+	margin-top:300px;
+	background-image:url(../imagenes/principal/cursos/semi.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	transition:.4s;
+	}
+#semi:hover {
+	margin-left:-790px;
+	margin-top:270px;
+	background-image:url(../imagenes/principal/cursos/semih.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:192px;
+	height:308px;
+	transition:.4s;
+	}
+#semi p {
+	text-align:center;
+	color:#FFF;
+	opacity:.7;
+	font-family: 'keep_calm_medregular';
+	font-size:22px;
+	padding-left:5px;
+	padding-top:270px;
+	transition:.4s;
+	}
+#semi p:hover {
+	transition:.2s;
+	opacity:0;}
+
+#intensivo {
+	float:left;
+	width:146px;
+	height:258px;
+	margin-left:-500px;
+	margin-top:300px;
+	background-image:url(../imagenes/principal/cursos/intensivo.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	transition:.4s;
+	}
+#intensivo:hover {
+	margin-left:-530px;
+	margin-top:280px;
+	background-image:url(../imagenes/principal/cursos/intensivoh.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:229px;
+	height:308px;
+	transition:.4s;
+	}
+#intensivo p {
+	color:#FFF;
+	opacity:.7;
+	font-family: 'keep_calm_medregular';
+	font-size:22px;
+	padding-left:10px;
+	padding-top:270px;
+	transition:.4s;
+	}
+#intensivo p:hover {
+	transition:.2s;
+	opacity:0;}
+	
+#corporativo {
+	float:left;
+	width:146px;
+	height:258px;
+	margin-left:-220px;
+	margin-top:310px;
+	background-image:url(../imagenes/principal/cursos/corporativo.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	transition:.4s;
+	}
+#corporativo:hover {
+	margin-left:-260px;
+	margin-top:300px;
+	background-image:url(../imagenes/principal/cursos/corporativoh.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:251px;
+	height:279px;
+	transition:.4s;
+	}
+#corporativo p {
+	color:#FFF;
+	opacity:.7;
+	font-family: 'keep_calm_medregular';
+	font-size:22px;
+	padding-left:-10px;
+	padding-top:260px;
+	transition:.4s;
+	}
+#corporativo p:hover {
+	transition:.2s;
+	opacity:0;}
+
+#homeccur{
+	width:51px;
+	height:42px;
+	float:left;
+	margin-left:-590px;
+	margin-top:700px;
+	background-image:url(../imagenes/primerpantalla/home.png);
+	background-repeat:no-repeat;
+	background-position:center;}
+	
+#homeccur:hover {
+	transition:.4s;
+	background-image:url(../imagenes/primerpantalla/homehover.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+#redessectioncur {
+	float:left;
+	margin-top:20px;
+	margin-left:525px;
+	}
+/*------------------contacto----------------*/
+
+#contacto {
+	margin-top:-2px;
+	width:100%;
+	height:850px;
+	background-size:100%;
+	background-image:url(../imagenes/contacto/fondo.png);}
+	
+#contenedorcontacto {
+	width:1280px;
+	margin:auto;
+	height:850px;
+	}
+#fondo1 {
+	float:left;
+	padding-top:200px;
+	margin-left:150px;
+	width:1004px;
+	height:671px;
+	background-image:url(../imagenes/contacto/fondo1.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+#mapa {
+	float:left;
+	margin-left:100px;
+	margin-top:0px;
+	}
+#formulario {
+	width:600px;
+	height:800px;
+	float:left;
+	margin-top:-600px;
+	margin-left:500px;
+	color:#FFF;
+	font-size:36px;
+	font-family: 'keep_calm_medregular';
+	}
+#formulario tr td{
+	padding: 5px;
+		
+	}
+input::-webkit-input-placeholder {
+  color: #fff;
+  margin-left:5px;
+  margin-bottom:5px;
+}
+input:-moz-placeholder {
+  color: #fff;
+  margin-left:5px;
+  margin-bottom:5px;
+}
+input:-ms-input-placeholder {
+  color: #fff;
+  margin-left:5px;
+  margin-bottom:5px;
+}
+input[placeholder] {
+  color: #fff;
+  
+}
+#nombre {
+  width:300px;
+  margin-left:0px;
+  border:none;
+  text-align:center;
+  font-family: 'champagne__limousinesbold';
+  color:#999;
+  font-size:22px;
+  background:#003;   
+  border-radius: 15px 15px 15px 15px;
+   }
+#asunto {
+	margin-left:0px;
+	margin-top:-10px;
+	  padding:20px;
+	font-size:16px;
+	color:#FFF;
+	}
+textarea {
+	float:left;
+  padding-left:10px;
+  padding-top:10px;
+  width:300px;
+  height:200px;
+  margin-top:30px;
+  margin-left:-10px;
+  border:2px;
+  border-color:#003;
+  text-align:center;
+  font-family: 'champagne__limousinesbold';
+  color:#999;
+  font-size:22px;
+  background:#fff;   
+  border-radius: 15px 15px 15px 15px;
+   }
+ #enviar {
+	 float:left;
+	 margin-top:10px;
+	 margin-left:10px;
+	 background-image:url(../imagenes/principal/sabatino/inscripcion.png);
+	 background-position:center;
+	 background-repeat:no-repeat;
+	 width:276px;
+	 height:67px;
+	 transition:.4s;
+	 }
+#enviar p {
+	color:#003;
+	font-size:36px;
+	padding-top:2px;
+	padding-left:64px;
+	font-family: 'keep_calm_medregular';
+	transition:.4s;}
+#enviar:hover {
+	 background-image:url(../imagenes/principal/sabatino/inscripcionh.png);
+	 background-position:center;
+	 background-repeat:no-repeat;
+	 transition:.4s;
+	 }
+#enviar p:hover {
+	color:#fff;
+	transition:.4s;}
+
+#piec {
+	float:left;
+	margin-top:-10px;
+	margin-left:70px;}
+#informacionc {
+	mar
+	float:left;
+	width:355px;
+	height:133px;
+	}
+#logopeqc {
+	float:left;
+	margin-left:148px;
+	margin-top:18px;
+	}
+#telc {
+	width:200px;
+	height:16px;
+	background-repeat:no-repeat;
+	background-position:left;
+	background-image:url(../imagenes/primerpantalla/tel.png);
+	float:left;
+	margin-left:170px;
+	margin-top:50px;
+	}
+#telc p{
+	margin-top:-5px;
+	margin-left:25px;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:20px;
+	}
+#wappc {
+	width:200px;
+	height:24px;
+	background-repeat:no-repeat;
+	background-position:left;
+	background-image:url(../imagenes/primerpantalla/wapp.png);
+	float:left;
+	margin-left:150px;
+	margin-top:7px;
+	}
+
+#wappc p{
+	margin-top:-5px;
+	margin-left:25px;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:20px;
+	}
+#direccionc {
+	float:left;
+	}
+#direccionc p{
+	margin-top:5px;
+	margin-left:90px;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:20px;
+	}
+
+
+/*------------------footer-----------------*/
+
+#pie {
+	margin:auto;
+	width:1280px;
+	}
+footer {
+	width:100%;
+	height:173px;
+	background-image:url(../imagenes/primerpantalla/footer.png);
+	background-repeat:no-repeat;
+	background-size: 100% 173px;
+	}
+#informacion {
+	margin-top:-20px;
+	float:left;
+	width:355px;
+	height:133px;
+	}
+#logopeq {
+	float:left;
+	margin-left:148px;
+	margin-top:18px;
+	}
+#tel {
+	width:104px;
+	height:16px;
+	background-repeat:no-repeat;
+	background-position:left;
+	background-image:url(../imagenes/primerpantalla/tel.png);
+	float:left;
+	margin-left:170px;
+	margin-top:14px;
+	}
+#tel p{
+	margin-top:-5px;
+	margin-left:25px;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:16px;
+	}
+#wapp {
+	width:160px;
+	height:24px;
+	background-repeat:no-repeat;
+	background-position:left;
+	background-image:url(../imagenes/primerpantalla/wapp.png);
+	float:left;
+	margin-left:150px;
+	margin-top:7px;
+	}
+
+#wapp p{
+	margin-top:-5px;
+	margin-left:25px;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:16px;
+	}
+#direccion {
+	float:left;
+	}
+#direccion p{
+	margin-top:5px;
+	margin-left:90px;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:15px;
+	}
+#copy {
+	float:left;
+	margin-left:140px;
+	margin-top:-0px;
+	width:400px;
+	height:150px;
+	}
+#by {
+	float:left;
+	margin-left:80px;
+	margin-top:10px;
+	}
+#copytexto p {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	margin-left:-80px;
+	margin-top:100px;
+	font-size:12px;
+	}
+#redes {
+	float:right;
+	margin-top:10px;
+	margin-right:90px;
+	}
+#fb:hover {
+
+	background-image:url(../imagenes/primerpantalla/fbh.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	
+	}
+#gm:hover {
+
+	background-image:url(../imagenes/primerpantalla/gmh.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	
+	}
+#tw:hover {
+
+	background-image:url(../imagenes/primerpantalla/twh.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	
+	}
+#ins:hover {
+	background-image:url(../imagenes/primerpantalla/insh.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	
+	}
+#logomed {
+	float:right;
+	margin-top:10px;
+	margin-right:100px;
+	}
+#fb img:hover{
+	opacity:0;
+	transition:.2s;}
+#tw img:hover{
+	opacity:0;
+	transition:.2s;}
+#gm img:hover{
+	opacity:0;
+	transition:.2s;}
+#ins img:hover{
+	opacity:0;
+	transition:.2s;}

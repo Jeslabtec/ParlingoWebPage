@@ -1,0 +1,342 @@
+@charset "utf-8";
+@import url("../fuentes/stylesheet.css");
+@import url("../engine1/style.css");
+@import url("../engine1/style.mod.css");
+/* CSS Document */
+
+*{margin:0px;
+padding:0px;
+	}
+body {
+	background:#00CCFF;}
+header {
+	width:100%;
+	height:800px;
+	background-size:100% 800px;
+	background-image:url(../imagenes/primerpantalla/fondo.png);
+	}
+nav {
+	width:100%;
+	height:100px;
+	background-position:center;
+	background-image:url(../imagenes/primerpantalla/menu.png);
+	}
+#menu {
+	margin:auto;
+	width:1200px;
+	padding-top:25px;
+	}
+#logo {
+	width:292px;
+	height:50px;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-image:url(../imagenes/primerpantalla/logo.png);
+	float:left;
+	margin-left:34px;
+	margin-top:0px;
+	transition:.3s;
+	}
+
+#logo:hover {
+
+	background-repeat:no-repeat;
+	background-position:center;
+	background-image:url(../imagenes/primerpantalla/logoh.png);	
+	transition:.3s;
+	}
+
+#home {
+	width:51px;
+	height:42px;
+	background-image:url(../imagenes/primerpantalla/home.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	float:left;
+	padding-right:20px;
+	margin-left:300px;
+	margin-top:0px;
+	transition:.4s;}
+	
+#home:hover {
+	transition:.4s;
+	background-image:url(../imagenes/primerpantalla/homehover.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+
+.idiomas {
+	padding-top:5px;
+	text-align:center;
+	width:129px;
+	height:55px;
+	float:left;
+	margin-left:23px;
+	margin-top:0px;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:25px;
+	text-shadow: 3px 1px 0px #003366;
+	transition:.4s;
+	}
+.idiomas:hover {
+	padding-top:10px;
+	background-image:url(../imagenes/primerpantalla/idioh.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	transition:.4s;
+	}
+.cursos {
+	padding-top:5px;
+	text-align:center;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:25px;
+	text-shadow: 3px 1px 0px #003366;
+	width:115px;
+	height:55px;
+	float:left;
+	margin-left:13px;
+	margin-top:0px;
+	transition:.4s;
+	}
+.cursos:hover {
+	padding-top:10px;
+	background-image:url(../imagenes/primerpantalla/cursosh.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	transition:.4s;
+	}
+
+.contactanos {
+	width:202px;
+	height:55px;
+	float:left;
+	margin-left:0px;
+	margin-top:0px;
+	transition:.4s;
+	padding-top:5px;
+	text-align:center;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:25px;
+	text-shadow: 3px 1px 0px #003366;
+	}
+.contactanos:hover {
+	padding-top:10px;
+	background-image:url(../imagenes/primerpantalla/contactanosh.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	transition:.4s;
+	}
+#slider {
+	margin:auto;
+	padding-top:30px;}
+
+#botones {
+	margin:auto;
+	width:800px;
+	height:300px;
+	}
+#boton1 {
+	margin-left:70px;
+	margin-top:20px;
+	float:left;
+	width:310px;
+	height:87px;
+	background-image:url(../imagenes/primerpantalla/boton1.png);
+	background-size:contain;
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+#boton1:hover {
+	background-image:url(../imagenes/primerpantalla/boton1h.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	transition:.3s;
+	}
+
+#boton1 p{
+	transition:.4s;
+	padding-top:15px;
+	text-align:center;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:30px;
+	text-shadow: 3px 1px 0px #24361F;
+	}
+
+#boton2 {
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	width:310px;
+	height:87px;
+	background-image:url(../imagenes/primerpantalla/boton2.png);
+	background-size:auto;
+	background-position:center;
+	background-repeat:no-repeat;
+	}
+#boton2:hover {
+	background-image:url(../imagenes/primerpantalla/boton2h.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	transition:.3s;
+	}
+#boton2 p{
+	transition:.4s;
+	padding-top:15px;
+	text-align:center;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:30px;
+	text-shadow: 3px 1px 0px #24361F;
+	}
+#pie {
+	margin:auto;
+	width:1280px;
+	}
+footer {
+	width:100%;
+	height:173px;
+	background-image:url(../imagenes/primerpantalla/footer.png);
+	background-repeat:no-repeat;
+	background-size: 100% 173px;
+	}
+#informacion {
+	mar
+	float:left;
+	width:355px;
+	height:133px;
+	}
+#logopeq {
+	float:left;
+	margin-left:148px;
+	margin-top:18px;
+	}
+#tel {
+	width:104px;
+	height:16px;
+	background-repeat:no-repeat;
+	background-position:left;
+	background-image:url(../imagenes/primerpantalla/tel.png);
+	float:left;
+	margin-left:170px;
+	margin-top:14px;
+	}
+#tel p{
+	margin-top:-5px;
+	margin-left:25px;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:16px;
+	}
+#wapp {
+	width:160px;
+	height:24px;
+	background-repeat:no-repeat;
+	background-position:left;
+	background-image:url(../imagenes/primerpantalla/wapp.png);
+	float:left;
+	margin-left:150px;
+	margin-top:7px;
+	}
+
+#wapp p{
+	margin-top:-5px;
+	margin-left:25px;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:16px;
+	}
+#direccion {
+	float:left;
+	}
+#direccion p{
+	margin-top:5px;
+	margin-left:90px;
+	color:#FFF;
+	font-family: 'keep_calm_medregular';
+	font-size:15px;
+	}
+#copy {
+	float:left;
+	margin-left:140px;
+	margin-top:-110px;
+	width:400px;
+	height:150px;
+	}
+#by {
+	float:left;
+	margin-left:70px;
+	margin-top:0px;
+	}
+#copytexto p {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	margin-left:-80px;
+	margin-top:100px;
+	font-size:12px;
+	}
+#redes {
+	float:right;
+	margin-top:-110px;
+	margin-right:90px;
+	}
+#fb:hover {
+
+	background-image:url(../imagenes/primerpantalla/fbh.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	
+	}
+#gm:hover {
+
+	background-image:url(../imagenes/primerpantalla/gmh.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	
+	}
+#tw:hover {
+
+	background-image:url(../imagenes/primerpantalla/twh.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	
+	}
+#ins:hover {
+	background-image:url(../imagenes/primerpantalla/insh.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	
+	}
+#logomed {
+	float:right;
+	margin-top:-30px;
+	margin-right:100px;
+	}
+#fb img:hover{
+	opacity:0;
+	transition:.2s;}
+#tw img:hover{
+	opacity:0;
+	transition:.2s;}
+#gm img:hover{
+	opacity:0;
+	transition:.2s;}
+#ins img:hover{
+	opacity:0;
+	transition:.2s;}
+	
+/*----------------------------- metodología -------------------*/
+
+#metodología {
+
+	}
+#contenedor {
+	}
+#invitacionmet {
+	float:left;
+	margin-left:200px;
+	margin-top:50px;
+	}

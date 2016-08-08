@@ -13,14 +13,14 @@ and open the template in the editor.
 
 
 body.home{   
-    background-color: blue;
+    background-color: #0098ca;
   
 }
 
 
 
 body.course{   
-    background-color: blue;
+   background-color: #096190;
     }
     
 div.navegador{
@@ -279,13 +279,43 @@ span.Btnderecha{
     margin-top: 20px;
 }
 
-#btnimagenes{
-  margin: 20px;
+.btnimagenes{
+  height: 20%;
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 5%;
   color: white;
-  font-size: 30px;
-  border:1px solid green;
-  background-color: green;
-  border-radius: 7px;
+  font-size: 110%;
+  border-radius: 57px 57px 57px 57px;
+  -moz-border-radius: 57px 57px 57px 57px;
+  -webkit-border-radius: 57px 57px 57px 57px;  
+  border: 6px solid  #003253;
+  background-color:  #00446e;
   text-align: center;
+}
+#containercursos{
+  border-radius: 57px 57px 57px 57px;
+-moz-border-radius: 57px 57px 57px 57px;
+-webkit-border-radius: 57px 57px 57px 57px;
+border: 6px solid #055a8c;
+height:80%;
+width: 30%;   
+}
+#containerexplicacion{
+  border-radius: 57px 57px 57px 57px;
+-moz-border-radius: 57px 57px 57px 57px;
+-webkit-border-radius: 57px 57px 57px 57px;
+border: 6px solid #055a8c;
+height:80%;
+width: 60%;   
+margin-left: 10%;
+
+}
+#imgcursos{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-bottom: 4%       
+    
 }
 
