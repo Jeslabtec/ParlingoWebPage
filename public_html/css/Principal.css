@@ -301,16 +301,47 @@ border: 6px solid #055a8c;
 height:80%;
 width: 30%;   
 }
-#containerexplicacion{
+#containercursos{
   border-radius: 57px 57px 57px 57px;
+-moz-border-radius: 57px 57px 57px 57px;
+-webkit-border-radius: 57px 57px 57px 57px;
+border: 6px solid #055a8c;
+height:80%;
+width: 30%;   
+}
+
+#containerexplicacion{
+border-radius: 57px 57px 57px 57px;
 -moz-border-radius: 57px 57px 57px 57px;
 -webkit-border-radius: 57px 57px 57px 57px;
 border: 6px solid #055a8c;
 height:80%;
 width: 60%;   
 margin-left: 10%;
-
+color: whitesmoke;
+text-align: justify;
+font-family: cursive;
+font-size: small;
+padding-top: 10%;
 }
+div.containertiempocursos{
+    border-radius: 57px 57px 57px 57px;
+    -moz-border-radius: 57px 57px 57px 57px;
+    -webkit-border-radius: 57px 57px 57px 57px;
+    border: 6px solid #055a8c;
+    width:199px;
+    height:251px; 
+    background-position:center;
+    background-repeat:no-repeat;
+    background-image:url(../img/sabatino.png); 
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 50%;
+    font-size: 200%;
+
+        
+}
+
 #imgcursos{
     width: 80%;
     margin-left: 10%;

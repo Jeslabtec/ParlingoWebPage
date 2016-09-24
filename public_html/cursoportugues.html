@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cursoportugues</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="fonts/glyphicons-halflings-regular.ttf" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/Principal.css" rel="stylesheet" type="text/css"/>
+        <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body class="course">
+        <div class="navbar navegador">
+                    <a href="index.html" ><div class="parlingoLogo"></div></a>                
+        </div>
+        <div class="container">
+            <div class="col-lg-3" id="containercursos">
+                
+                <div class="row"><img class="img-rounded" id="imgcursos" src="img/portugues.png"/></div>
+                
+                <div class="row"><h1 class="h1">Inglés</h1></div>
+                
+                <div class="row"><a  class="btn btnimagenes" onclick="contenido()">Inscripcion</a> </div>
+                
+                <div class="row"><a  class="btn btnimagenes" href="#">Curso</a></div>
+               
+                <div class="row"><a  class="btn btnimagenes" href="#">Aprender es un juego</a></div>
+            </div>
+            <div class="col-lg-6" id="containerexplicacion">
+                              
+        </div>
+        </div>
+ <script>
+                function contenido()
+                {
+                var texto="El inglés se ha convertido en el idioma más importante a nivel mundial, siendo este el idioma escogido para los negocios,\n\
+                            las relaciones interpersonales y las comunicaciones empresariales e interinstitucionales. A Pesar del esfuerzo hecho por\n\
+                            nuestro país para implementar el inglés como una segunda lengua, no se ha logrado un nivel de inglés nacional que este por \n\
+                            encima del promedio latinoamericano dejando a nuestro país muy mal referenciado en cuanto a niveles de bilingüismo en su \n\
+                            mayor parte por las anticuadas metodologías de estudio. Es por eso que nuestra institución ha diseñado un curso de inglés\n\
+                            con una metodología revolucionaria basada en la conversación y la lúdica que ha demostrado excelentes resultados en \n\
+                            diferentes países europeos y que nunca había sido implementada en nuestro país. Nuestra institución tiene en cuenta las \n\
+                            necesidades de nuestros estudiantes en cuanto a tiempo, presupuesto, flexibilidad, motivación, necesidad, mediante un curso\n\
+                            que realmente satisfaga las necesidades especificas de nuestros estudiantes según el motivo para el cual necesitan aprender\n\
+                            la lengua. Aprende jugando, tal como lo haría un niño, de la misma manera que aprendemos nuestra primera lengua y de la \n\
+                            misma manera que aprenden el idioma aquellas personas viajan a países de habla inglesa ,en un ambiente de inmersión \n\
+                            aprendiendo a través de juegos, cultura, clases temáticas, video juegos, canciones, videos, salidas pedagógicas. Etc.";
+                            document.getElementById("containerexplicacion").innerHTML=texto;
+                }
+                </script>
+        
+    </body>
+</html>
